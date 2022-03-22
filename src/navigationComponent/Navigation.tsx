@@ -28,7 +28,7 @@ const Navigation = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#portfolio">
-                Portfolio
+                Projects
               </a>
             </li>
             <li className="nav-item">
@@ -38,7 +38,7 @@ const Navigation = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/search">
-                Team
+                Members
               </a>
             </li>
             <li className="nav-item">

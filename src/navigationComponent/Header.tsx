@@ -12,6 +12,7 @@ const Header = () => {
         <div className="masthead-heading text-uppercase">
           Philippine <b className="eagles-font">Eagles</b>
         </div>
+        <p>First Philippine-Born Fraternal Socio-Civic Organization</p>
         <a className="btn btn-primary btn-xl text-uppercase" href="#events">
           Learn More About Us
         </a>

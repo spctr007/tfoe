@@ -12003,7 +12003,7 @@ p {
 }
 
 #mainNav .navbar-brand img {
-  height: 4rem;
+  height: 3rem;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -12032,7 +12032,7 @@ p {
   }
 
   #mainNav .navbar-brand img {
-    height: 4rem;
+    height: 3rem;
     transition: height 0.3s ease-in-out;
   }
 
@@ -12048,7 +12048,7 @@ p {
 
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
-    height: 3rem;
+    height: 2rem;
   }
 
   #mainNav .navbar-nav .nav-item {
