@@ -5,7 +5,7 @@ const Navigation = () => {
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <img src="assets/img/navbar-logo.svg" alt="..." />
+          <img className="h-logo_image" src="assets/img/cropped-Agila-Logo.png" alt="..." />
         </a>
         <button
           className="navbar-toggler"
@@ -37,7 +37,7 @@ const Navigation = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#team">
+              <a className="nav-link" href="/search">
                 Team
               </a>
             </li>

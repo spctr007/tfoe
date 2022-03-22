@@ -2,7 +2,9 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <section className="page-section" id="contact">
+    <section className="page-section" id="contact" style={{
+      backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/img/map-image.png'})`
+    }}>
       <div className="container">
         <div className="text-center">
           <h2 className="section-heading text-uppercase">Contact Us</h2>

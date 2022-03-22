@@ -12003,7 +12003,7 @@ p {
 }
 
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 4rem;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -12032,7 +12032,7 @@ p {
   }
 
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 4rem;
     transition: height 0.3s ease-in-out;
   }
 
@@ -12048,7 +12048,7 @@ p {
 
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 3rem;
   }
 
   #mainNav .navbar-nav .nav-item {
@@ -12065,7 +12065,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../public/assets/img/header-bg.jpg");
+  background-image: url("%PUBLIC_URL%/assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -12429,7 +12429,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../public/assets/img/map-image.png");
+  /*background-image: url("assets/img/map-image.png");*/
   background-repeat: no-repeat;
   background-position: center;
 }
