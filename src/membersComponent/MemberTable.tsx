@@ -41,9 +41,9 @@ const MemberTable = () => {
   }
 
   return (
-    <div>
+    <div className="table-responsive">
       <SearchBar searchMember={searchMember} />
-      <table className="table table-hover table-responsive table-bordered align-middle mb-0 bg-white">
+      <table className="table table-hover table-bordered align-middle mb-0 bg-white">
         <thead className="bg-light">
           <tr>
             <th>Name</th>
@@ -59,7 +59,7 @@ const MemberTable = () => {
           })}
         </tbody>
       </table>
-      <nav aria-label="Page navigation example" className="nav-pagination">
+      <nav aria-label="Page navigation example" className="nav-pagination table-responsive">
         <ul className="pagination">
           <li className="page-item"><a className="page-link" href="#">Previous</a></li>
           <li className="page-item"><a className="page-link" href="#">...</a></li>

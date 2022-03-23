@@ -24,8 +24,12 @@ const MemberTableRow = (props: MemberTableRowProps) => {
         </div>
       </td>
       <td>
-        <p className="fw-normal mb-1">{props.member.role}</p>
-        <p className="text-muted mb-0">Finance</p>
+          <div className="d-flex align-items-center">
+              <div className="ms-3">
+                  <p className="fw-bold mb-1">{props.member.position}</p>
+                  <p className="text-muted mb-0">{props.member.role}</p>
+              </div>
+          </div>
       </td>
       <td>
         <span className="badge badge-primary rounded-pill d-inline bg-secondary">
