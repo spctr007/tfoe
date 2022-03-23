@@ -1,0 +1,18 @@
+.exportExcel{
+    padding: 5px;
+    border: 1px solid grey;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.img-photo {
+    border-radius: 50% !important;
+    width: 45px;
+    height: 45px;
+}
+
+.Container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 45px;
+}
