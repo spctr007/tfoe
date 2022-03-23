@@ -2,9 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="masthead" style={{
-      backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/img/header-bg.jpg'})`
-    }}>
+    <header className="masthead">
       <div className="container">
         <div className="masthead-subheading">
           The Fraternal Order of <b className="eagles-font">EAGLES</b>
