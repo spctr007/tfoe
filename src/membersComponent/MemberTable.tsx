@@ -4,6 +4,7 @@ import MemberTableRow from "./MemberTableRow";
 import Fuse from "fuse.js";
 import memberTableData from "./memberTableData";
 import { Member } from "./Member";
+import "./Styles.MemberTable.css";
 
 const MemberTable = () => {
   const [searchMatch, setSearchMatch] = useState(memberTableData);
@@ -58,6 +59,17 @@ const MemberTable = () => {
           })}
         </tbody>
       </table>
+      <nav aria-label="Page navigation example" className="nav-pagination">
+        <ul className="pagination">
+          <li className="page-item"><a className="page-link" href="#">Previous</a></li>
+          <li className="page-item"><a className="page-link" href="#">...</a></li>
+          <li className="page-item"><a className="page-link" href="#">11</a></li>
+          <li className="page-item"><a className="page-link" href="#">12</a></li>
+          <li className="page-item"><a className="page-link" href="#">13</a></li>
+          <li className="page-item"><a className="page-link" href="#">...</a></li>
+          <li className="page-item"><a className="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
     </div>
   );
 };
