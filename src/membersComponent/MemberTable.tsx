@@ -40,8 +40,26 @@ const MemberTable = () => {
     }
   }
 
+  const [file, setFile] = useState("");
+
+  function cancelButton(event : any) {
+    setFile("");
+  }
+
+  function fileUpload(event : any){
+    setFile(event.target.value);
+  }
+
   return (
     <div className="table-responsive">
+      <label htmlFor="customFile"><strong>Member File Upload</strong></label>
+      <div className="input-group mb-3">
+        <input type="file" className="form-control" id="customFile" onChange={fileUpload} value={file}/>
+        <div className="input-group-append">
+          <button className="btn btn-outline-danger" type="button" onClick={cancelButton}>Cancel</button>
+          <button className="btn btn-outline-success" type="button">Upload</button>
+        </div>
+      </div>
       <SearchBar searchMember={searchMember} />
       <table className="table table-hover table-bordered align-middle mb-0 bg-white">
         <thead className="bg-light">

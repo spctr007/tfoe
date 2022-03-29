@@ -46,7 +46,7 @@ const SearchNavigation = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-                <div className="container">
+                <div className="container-fluid">
                     <a className="navbar-brand" href="/">
                         <img src="assets/img/cropped-Agila-Logo.png" alt="..." />
                     </a>
