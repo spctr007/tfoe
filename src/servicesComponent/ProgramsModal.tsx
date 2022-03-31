@@ -19,7 +19,7 @@ const ProgramsModal = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-8">
                   <div className="modal-body">
-                    <h2 className="text-uppercase">Project Name</h2>
+                    <h2 className="text-uppercase">Outreach</h2>
                     <p className="item-intro text-muted">
                       Lorem ipsum dolor sit amet consectetur.
                     </p>
@@ -37,12 +37,12 @@ const ProgramsModal = () => {
                     </p>
                     <ul className="list-inline">
                       <li>
-                        <strong>Client:</strong>
-                        Threads
+                        <strong>Location:</strong>
+                        PH
                       </li>
                       <li>
                         <strong>Category:</strong>
-                        Illustration
+                        Outreach
                       </li>
                     </ul>
                     <button
@@ -76,7 +76,7 @@ const ProgramsModal = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-8">
                   <div className="modal-body">
-                    <h2 className="text-uppercase">Project Name</h2>
+                    <h2 className="text-uppercase">National Event</h2>
                     <p className="item-intro text-muted">
                       Lorem ipsum dolor sit amet consectetur.
                     </p>
@@ -94,12 +94,12 @@ const ProgramsModal = () => {
                     </p>
                     <ul className="list-inline">
                       <li>
-                        <strong>Client:</strong>
-                        Explore
+                        <strong>Venue:</strong>
+                        PH
                       </li>
                       <li>
                         <strong>Category:</strong>
-                        Graphic Design
+                        General Assembly
                       </li>
                     </ul>
                     <button
@@ -133,7 +133,7 @@ const ProgramsModal = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-8">
                   <div className="modal-body">
-                    <h2 className="text-uppercase">Project Name</h2>
+                    <h2 className="text-uppercase">Program</h2>
                     <p className="item-intro text-muted">
                       Lorem ipsum dolor sit amet consectetur.
                     </p>
@@ -151,12 +151,12 @@ const ProgramsModal = () => {
                     </p>
                     <ul className="list-inline">
                       <li>
-                        <strong>Client:</strong>
+                        <strong>Program Name:</strong>
                         Finish
                       </li>
                       <li>
                         <strong>Category:</strong>
-                        Identity
+                        Induction
                       </li>
                     </ul>
                     <button
