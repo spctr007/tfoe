@@ -54,32 +54,7 @@ const ProgramsPage = () => {
           </h3>
         </div>
         <div className="row">
-          <div className="col-lg-4 col-sm-6 mb-4">
-            <div className="portfolio-item">
-              <a
-                className="portfolio-link"
-                data-bs-toggle="modal"
-                href="#portfolioModal1"
-              >
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content">
-                    <i className="fas fa-plus fa-3x"/>
-                  </div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src="assets/img/portfolio/1.jpg"
-                  alt="..."
-                />
-              </a>
-              <div className="portfolio-caption">
-                <div className="portfolio-caption-heading">Outreach</div>
-                <div className="portfolio-caption-subheading text-muted">
-                  Helping Hand
-                </div>
-              </div>
-            </div>
-          </div>
+
           <div className="col-lg-4 col-sm-6 mb-4">
             <div className="portfolio-item">
               <a
@@ -102,6 +77,32 @@ const ProgramsPage = () => {
                 <div className="portfolio-caption-heading">National</div>
                 <div className="portfolio-caption-subheading text-muted">
                   Event
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-6 mb-4">
+            <div className="portfolio-item">
+              <a
+                  className="portfolio-link"
+                  data-bs-toggle="modal"
+                  href="#portfolioModal1"
+              >
+                <div className="portfolio-hover">
+                  <div className="portfolio-hover-content">
+                    <i className="fas fa-plus fa-3x"/>
+                  </div>
+                </div>
+                <img
+                    className="img-fluid"
+                    src="assets/img/portfolio/1.jpg"
+                    alt="..."
+                />
+              </a>
+              <div className="portfolio-caption">
+                <div className="portfolio-caption-heading">SportsFest</div>
+                <div className="portfolio-caption-subheading text-muted">
+                  2022
                 </div>
               </div>
             </div>

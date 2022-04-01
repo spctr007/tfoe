@@ -19,7 +19,7 @@ const ProgramsModal = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-8">
                   <div className="modal-body">
-                    <h2 className="text-uppercase">Outreach</h2>
+                    <h2 className="text-uppercase">SportsFest</h2>
                     <p className="item-intro text-muted">
                       Lorem ipsum dolor sit amet consectetur.
                     </p>
@@ -42,7 +42,7 @@ const ProgramsModal = () => {
                       </li>
                       <li>
                         <strong>Category:</strong>
-                        Outreach
+                        Program
                       </li>
                     </ul>
                     <button
